@@ -2,8 +2,9 @@ require "formula"
 
 class ClangFormat < Formula
   homepage "http://llvm.org/releases/download.html"
-  url "http://llvm.org/releases/3.4/clang+llvm-3.4-x86_64-apple-darwin10.9.tar.gz"
-  sha1 "4b7a4fbabffc1bda669f7ff961ab072ffc467fed"
+
+  url "http://llvm.org/releases/3.5.0/clang+llvm-3.5.0-macosx-apple-darwin.tar.xz"
+  sha1 "ea15cfe99022fb2abce219d7e8a4377b81f7b1fb"
 
   def install
     bin.install('bin/clang-format')
